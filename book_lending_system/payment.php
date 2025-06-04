@@ -17,7 +17,7 @@ $user_id = $_SESSION['user_id'];
 
 // Function to generate QR code data for UPI
 function generateUPIQRData($amount) {
-    $upi_id = "gtharan834@okicici";
+    $upi_id =ADD YOUR UPI ID HERE;
     $name = "Book Lending System";
     $note = "Fine Payment for Book Return";
     $amount = number_format($amount, 2, '.', '');
